@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_CrudLogInModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="consumption">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="usedDate" Type="datetime" />
+    <Property Name="product_id" Type="int" />
+    <Property Name="usedQuantity" Type="int" />
+    <Property Name="treatment_id" Type="int" />
+  </EntityType>
+  <EntityType Name="especiality">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="name" MaxLength="50" Type="varchar" />
+    <Property Name="procedures" MaxLength="100" Type="varchar" />
+    <Property Name="budget" Precision="18" Scale="2" Type="decimal" />
+  </EntityType>
+  <EntityType Name="patient">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="code" MaxLength="10" Type="varchar" />
+    <Property Name="firstName" MaxLength="50" Type="varchar" />
+    <Property Name="lastName" MaxLength="50" Type="varchar" />
+    <Property Name="birthDate" Type="datetime" />
+    <Property Name="CI" Type="int" />
+    <Property Name="medicalHistory" MaxLength="500" Type="varchar" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="name" Nullable="false" MaxLength="255" Type="nvarchar" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="price" Precision="18" Scale="2" Type="decimal" />
+    <Property Name="provider" MaxLength="255" Type="nvarchar" />
+    <Property Name="state" MaxLength="50" Type="nvarchar" />
+    <Property Name="availableQuantity" Type="int" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="code" MaxLength="10" Type="varchar" />
+    <Property Name="name" MaxLength="20" Type="varchar" />
+    <Property Name="description" MaxLength="100" Type="varchar" />
+  </EntityType>
+  <EntityType Name="specialist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="code" MaxLength="10" Type="varchar" />
+    <Property Name="firstName" MaxLength="50" Type="varchar" />
+    <Property Name="lastName" MaxLength="50" Type="varchar" />
+    <Property Name="password" MaxLength="200" Type="varchar" />
+    <Property Name="birthDate" Type="datetime" />
+    <Property Name="especialityId" Type="int" />
+    <Property Name="efficiency" Type="int" />
+  </EntityType>
+  <EntityType Name="tarea">
+    <Key>
+      <PropertyRef Name="task_id" />
+    </Key>
+    <Property Name="task_id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="taskname" MaxLength="255" Type="nvarchar" />
+    <Property Name="start_date" Type="datetime" />
+    <Property Name="estimated_time" Precision="7" Type="time" />
+    <Property Name="employee" MaxLength="255" Type="nvarchar" />
+    <Property Name="project" MaxLength="255" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="treatment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="description" MaxLength="500" Type="varchar" />
+    <Property Name="startDate" Type="datetime" />
+    <Property Name="standardCost" Precision="18" Scale="2" Type="decimal" />
+    <Property Name="standardConsumption" Precision="18" Scale="2" Type="decimal" />
+    <Property Name="patientId" Type="int" />
+    <Property Name="specialistId" Type="int" />
+    <Property Name="adminId" Type="int" />
+    <Property Name="endDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="firstName" MaxLength="50" Type="varchar" />
+    <Property Name="lastName" MaxLength="50" Type="varchar" />
+    <Property Name="password" MaxLength="200" Type="varchar" />
+    <Property Name="birthDate" Type="date" />
+    <Property Name="roleId" Type="int" />
+    <Property Name="updatedAt" Type="datetime" />
+    <Property Name="createdAt" Type="datetime" />
+    <Property Name="status" MaxLength="10" Type="varchar" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="UserName" Nullable="false" MaxLength="255" Type="nvarchar" />
+    <Property Name="Mail" Nullable="false" MaxLength="255" Type="nvarchar" />
+    <Property Name="Password" Nullable="false" MaxLength="255" Type="nvarchar" />
+    <Property Name="CompleteName" Nullable="false" MaxLength="255" Type="nvarchar" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="State" MaxLength="50" Type="nvarchar" />
+    <Property Name="Rol" MaxLength="50" Type="nvarchar" />
+  </EntityType>
+  <Association Name="FK__specialis__espec__59063A47">
+    <End Type="Self.especiality" Multiplicity="0..1" Role="especiality" />
+    <End Type="Self.specialist" Multiplicity="*" Role="specialist" />
+    <ReferentialConstraint>
+      <Principal Role="especiality">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="specialist">
+        <PropertyRef Name="especialityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__admin__5EBF139D">
+    <End Type="Self.users" Multiplicity="0..1" Role="users" />
+    <End Type="Self.treatment" Multiplicity="*" Role="treatment" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="adminId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__patie__5CD6CB2B">
+    <End Type="Self.patient" Multiplicity="0..1" Role="patient" />
+    <End Type="Self.treatment" Multiplicity="*" Role="treatment" />
+    <ReferentialConstraint>
+      <Principal Role="patient">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="patientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__speci__5DCAEF64">
+    <End Type="Self.specialist" Multiplicity="0..1" Role="specialist" />
+    <End Type="Self.treatment" Multiplicity="*" Role="treatment" />
+    <ReferentialConstraint>
+      <Principal Role="specialist">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="specialistId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__users__roleId__5070F446">
+    <End Type="Self.roles" Multiplicity="0..1" Role="roles" />
+    <End Type="Self.users" Multiplicity="*" Role="users" />
+    <ReferentialConstraint>
+      <Principal Role="roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="users">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_consumption_product">
+    <End Type="Self.product" Multiplicity="0..1" Role="product" />
+    <End Type="Self.consumption" Multiplicity="*" Role="consumption" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="consumption">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Consumption_Treatment">
+    <End Type="Self.treatment" Multiplicity="0..1" Role="treatment" />
+    <End Type="Self.consumption" Multiplicity="*" Role="consumption" />
+    <ReferentialConstraint>
+      <Principal Role="treatment">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="consumption">
+        <PropertyRef Name="treatment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_CrudLogInModelStoreContainer">
+    <EntitySet Name="consumption" EntityType="Self.consumption" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="especiality" EntityType="Self.especiality" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="patient" EntityType="Self.patient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="specialist" EntityType="Self.specialist" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tarea" EntityType="Self.tarea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="treatment" EntityType="Self.treatment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__specialis__espec__59063A47" Association="Self.FK__specialis__espec__59063A47">
+      <End EntitySet="especiality" Role="especiality" />
+      <End EntitySet="specialist" Role="specialist" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__admin__5EBF139D" Association="Self.FK__treatment__admin__5EBF139D">
+      <End EntitySet="users" Role="users" />
+      <End EntitySet="treatment" Role="treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__patie__5CD6CB2B" Association="Self.FK__treatment__patie__5CD6CB2B">
+      <End EntitySet="patient" Role="patient" />
+      <End EntitySet="treatment" Role="treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__speci__5DCAEF64" Association="Self.FK__treatment__speci__5DCAEF64">
+      <End EntitySet="specialist" Role="specialist" />
+      <End EntitySet="treatment" Role="treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__users__roleId__5070F446" Association="Self.FK__users__roleId__5070F446">
+      <End EntitySet="roles" Role="roles" />
+      <End EntitySet="users" Role="users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_consumption_product" Association="Self.FK_consumption_product">
+      <End EntitySet="product" Role="product" />
+      <End EntitySet="consumption" Role="consumption" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Consumption_Treatment" Association="Self.FK_Consumption_Treatment">
+      <End EntitySet="treatment" Role="treatment" />
+      <End EntitySet="consumption" Role="consumption" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

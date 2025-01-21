@@ -1,0 +1,723 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|c:\\users\\rjuan\\downloads\\proyectos 2024\\2024 clases\\ing. web\\crud\\crud\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\interfaces\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\interfaces\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\complements\\uservalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\complements\\uservalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\coreobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\coreobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\coreobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\coreobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\consumptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\consumptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\consumptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\consumptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\specialistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\specialistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\interfaces\\itreatmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\interfaces\\itreatmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\treatmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\treatmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\treatmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\treatmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\treatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\specialistwithspecialitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\specialistwithspecialitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\specialistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\specialistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\controllers\\especialitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\especialitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\repo\\especialityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\repo\\especialityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\consumptionwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\consumptionwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\userwithroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\userwithroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\crud\\model\\especiality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22972B2-6CF9-47CA-ADD1-B55CCA1A3BCE}|CRUD\\CRUD.csproj|solutionrelative:crud\\model\\especiality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\db\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4EBB8FA5-2ED9-45D3-A562-D594DF2DA110}|DB\\DB.csproj|solutionrelative:db\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 280,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserValidator .cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Complements\\UserValidator .cs",
+              "RelativeDocumentMoniker": "CRUD\\Complements\\UserValidator .cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Complements\\UserValidator .cs",
+              "RelativeToolTip": "CRUD\\Complements\\UserValidator .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:55:14.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Interfaces\\IUserValidator.cs",
+              "RelativeDocumentMoniker": "CRUD\\Interfaces\\IUserValidator.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Interfaces\\IUserValidator.cs",
+              "RelativeToolTip": "CRUD\\Interfaces\\IUserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:53:05.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITreatmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Interfaces\\ITreatmentRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Interfaces\\ITreatmentRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Interfaces\\ITreatmentRepository.cs",
+              "RelativeToolTip": "CRUD\\Interfaces\\ITreatmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:01:33.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SpecialistWithSpecialityDto.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\SpecialistWithSpecialityDto.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\SpecialistWithSpecialityDto.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\SpecialistWithSpecialityDto.cs",
+              "RelativeToolTip": "CRUD\\Model\\SpecialistWithSpecialityDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:57:41.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:54:03.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\TaskRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\TaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:48:32.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpecialistRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\SpecialistRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\SpecialistRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\SpecialistRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\SpecialistRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:43:32.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\ProductRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:42:20.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:41:44.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\PatientRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\PatientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:40:51.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\UserRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:39:03.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EspecialityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\EspecialityRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\EspecialityRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\EspecialityRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\EspecialityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:38:00.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\LogInController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\LogInController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwEIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:32:09.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:32:06.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EspecialityController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\EspecialityController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\EspecialityController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\EspecialityController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\EspecialityController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:32:02.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoreObjectiveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\CoreObjectiveRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\CoreObjectiveRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\CoreObjectiveRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\CoreObjectiveRepository.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAD4v2EAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:29:53.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsumptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\ConsumptionRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\ConsumptionRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\ConsumptionRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\ConsumptionRepository.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAewBEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:24:00.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TreatmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\TreatmentRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\Repo\\TreatmentRepository.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Repo\\TreatmentRepository.cs",
+              "RelativeToolTip": "CRUD\\Repo\\TreatmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:14:07.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\TaskController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAwwB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:45:11.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TreatmentController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\TreatmentController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\TreatmentController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\TreatmentController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\TreatmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:45:11.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:45:11.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SpecialistController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\SpecialistController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\SpecialistController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\SpecialistController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\SpecialistController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwGEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T02:33:17.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "DB\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.Context.cs",
+              "RelativeToolTip": "DB\\Model1.Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:43:56.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\App.Config",
+              "RelativeDocumentMoniker": "DB\\App.Config",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\App.Config",
+              "RelativeToolTip": "DB\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-16T18:05:53.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserWithRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\UserWithRoleDto.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\UserWithRoleDto.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\UserWithRoleDto.cs",
+              "RelativeToolTip": "CRUD\\Model\\UserWithRoleDto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:21:34.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "speciality.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\speciality.cs",
+              "RelativeDocumentMoniker": "DB\\speciality.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\speciality.cs",
+              "RelativeToolTip": "DB\\speciality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T00:30:11.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\product.cs",
+              "RelativeDocumentMoniker": "DB\\product.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\product.cs",
+              "RelativeToolTip": "DB\\product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA+wBoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:10:48.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsumptionController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ConsumptionController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\ConsumptionController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\ConsumptionController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\ConsumptionController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T23:22:46.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "treatment.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\treatment.cs",
+              "RelativeDocumentMoniker": "DB\\treatment.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\treatment.cs",
+              "RelativeToolTip": "DB\\treatment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T22:58:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ConsumptionWithProduct.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\ConsumptionWithProduct.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\ConsumptionWithProduct.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\ConsumptionWithProduct.cs",
+              "RelativeToolTip": "CRUD\\Model\\ConsumptionWithProduct.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAnwAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T04:51:01.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "patient.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\patient.cs",
+              "RelativeDocumentMoniker": "DB\\patient.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\patient.cs",
+              "RelativeToolTip": "DB\\patient.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADgvxcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:31:57.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "consumption.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\consumption.cs",
+              "RelativeDocumentMoniker": "DB\\consumption.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\consumption.cs",
+              "RelativeToolTip": "DB\\consumption.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAvwBMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:01:09.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Patient.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\Patient.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Patient.cs",
+              "RelativeToolTip": "CRUD\\Model\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:49:10.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Product.cs",
+              "RelativeToolTip": "CRUD\\Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:48:41.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\user.cs",
+              "RelativeDocumentMoniker": "DB\\user.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\user.cs",
+              "RelativeToolTip": "DB\\user.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawBkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T22:32:31.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Especiality.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Especiality.cs",
+              "RelativeDocumentMoniker": "CRUD\\Model\\Especiality.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Model\\Especiality.cs",
+              "RelativeToolTip": "CRUD\\Model\\Especiality.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:47:49.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "DB\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.Context.tt",
+              "RelativeToolTip": "DB\\Model1.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-27T16:22:58.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.tt",
+              "RelativeDocumentMoniker": "DB\\Model1.tt",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.tt",
+              "RelativeToolTip": "DB\\Model1.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-27T16:51:11.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Model1.edmx.diagram",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.edmx.diagram",
+              "RelativeDocumentMoniker": "DB\\Model1.edmx.diagram",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\DB\\Model1.edmx.diagram",
+              "RelativeToolTip": "DB\\Model1.edmx.diagram",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-03T16:00:09.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "CRUD\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "CRUD\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:11:59.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CRUD\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CRUD\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:15:40.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Global.asax.cs",
+              "RelativeDocumentMoniker": "CRUD\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Global.asax.cs",
+              "RelativeToolTip": "CRUD\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:15:43.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoreObjectiveController.cs",
+              "DocumentMoniker": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\CoreObjectiveController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\CoreObjectiveController.cs",
+              "ToolTip": "C:\\Users\\rjuan\\Downloads\\Proyectos 2024\\2024 Clases\\Ing. Web\\CRUD\\CRUD\\Controllers\\CoreObjectiveController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\CoreObjectiveController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAtwCUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:44:11.573Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 72,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

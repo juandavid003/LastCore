@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_CrudLogInModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="Mail" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="Password" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="CompleteName" MaxLength="100" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="StartDate" Precision="3" Type="DateTime" />
+    <Property Name="State" MaxLength="15" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="Rol" MaxLength="10" FixedLength="false" Unicode="false" Type="String" />
+  </EntityType>
+  <EntityContainer Name="DB_CrudLogInEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="usuarios" EntityType="Self.usuario" />
+    <EntitySet Name="tareas" EntityType="DB_CrudLogInModel.tarea" />
+    <EntitySet Name="sysdiagrams" EntityType="DB_CrudLogInModel.sysdiagram" />
+    <EntitySet Name="consumptions" EntityType="DB_CrudLogInModel.consumption" />
+    <EntitySet Name="patients" EntityType="DB_CrudLogInModel.patient" />
+    <EntitySet Name="products" EntityType="DB_CrudLogInModel.product" />
+    <EntitySet Name="roles" EntityType="DB_CrudLogInModel.role" />
+    <EntitySet Name="specialists" EntityType="DB_CrudLogInModel.specialist" />
+    <EntitySet Name="specialities" EntityType="DB_CrudLogInModel.speciality" />
+    <EntitySet Name="treatments" EntityType="DB_CrudLogInModel.treatment" />
+    <EntitySet Name="users" EntityType="DB_CrudLogInModel.user" />
+    <AssociationSet Name="FK__consumpti__produ__70A8B9AE" Association="DB_CrudLogInModel.FK__consumpti__produ__70A8B9AE">
+      <End Role="product" EntitySet="products" />
+      <End Role="consumption" EntitySet="consumptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__consumpti__treat__719CDDE7" Association="DB_CrudLogInModel.FK__consumpti__treat__719CDDE7">
+      <End Role="treatment" EntitySet="treatments" />
+      <End Role="consumption" EntitySet="consumptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__patie__6BE40491" Association="DB_CrudLogInModel.FK__treatment__patie__6BE40491">
+      <End Role="patient" EntitySet="patients" />
+      <End Role="treatment" EntitySet="treatments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__user__roleId__607251E5" Association="DB_CrudLogInModel.FK__user__roleId__607251E5">
+      <End Role="role" EntitySet="roles" />
+      <End Role="user" EntitySet="users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__specialis__speci__65370702" Association="DB_CrudLogInModel.FK__specialis__speci__65370702">
+      <End Role="speciality" EntitySet="specialities" />
+      <End Role="specialist" EntitySet="specialists" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__speci__6CD828CA" Association="DB_CrudLogInModel.FK__treatment__speci__6CD828CA">
+      <End Role="specialist" EntitySet="specialists" />
+      <End Role="treatment" EntitySet="treatments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__treatment__admin__6DCC4D03" Association="DB_CrudLogInModel.FK__treatment__admin__6DCC4D03">
+      <End Role="user" EntitySet="users" />
+      <End Role="treatment" EntitySet="treatments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tarea">
+    <Key>
+      <PropertyRef Name="task_id" />
+    </Key>
+    <Property Name="task_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="taskname" MaxLength="255" FixedLength="false" Unicode="false" Type="String" Nullable="false" />
+    <Property Name="start_date" Precision="0" Type="DateTime" Nullable="false" />
+    <Property Name="estimated_time" Precision="7" Type="Time" Nullable="false" />
+    <Property Name="employee" MaxLength="255" FixedLength="false" Unicode="false" Type="String" Nullable="false" />
+    <Property Name="project" MaxLength="255" FixedLength="false" Unicode="false" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="consumption">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="usedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="usedQuantity" Type="Int32" Nullable="false" />
+    <Property Name="treatment_id" Type="Int32" />
+    <NavigationProperty Name="product" Relationship="DB_CrudLogInModel.FK__consumpti__produ__70A8B9AE" FromRole="consumption" ToRole="product" />
+    <NavigationProperty Name="treatment" Relationship="DB_CrudLogInModel.FK__consumpti__treat__719CDDE7" FromRole="consumption" ToRole="treatment" />
+  </EntityType>
+  <EntityType Name="patient">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CI" Type="Int32" Nullable="false" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="firstName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="birthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="medicalHistory" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="treatments" Relationship="DB_CrudLogInModel.FK__treatment__patie__6BE40491" FromRole="patient" ToRole="treatment" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="provider" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="availableQuantity" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="consumptions" Relationship="DB_CrudLogInModel.FK__consumpti__produ__70A8B9AE" FromRole="product" ToRole="consumption" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="users" Relationship="DB_CrudLogInModel.FK__user__roleId__607251E5" FromRole="role" ToRole="user" />
+  </EntityType>
+  <EntityType Name="specialist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="firstName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="birthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="specialityId" Type="Int32" />
+    <Property Name="efficiency" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="speciality" Relationship="DB_CrudLogInModel.FK__specialis__speci__65370702" FromRole="specialist" ToRole="speciality" />
+    <NavigationProperty Name="treatments" Relationship="DB_CrudLogInModel.FK__treatment__speci__6CD828CA" FromRole="specialist" ToRole="treatment" />
+  </EntityType>
+  <EntityType Name="speciality">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="procedures" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="budget" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <NavigationProperty Name="specialists" Relationship="DB_CrudLogInModel.FK__specialis__speci__65370702" FromRole="speciality" ToRole="specialist" />
+  </EntityType>
+  <EntityType Name="treatment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="startDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="standardCost" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="standardConsumption" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="patientId" Type="Int32" />
+    <Property Name="specialistId" Type="Int32" />
+    <Property Name="adminId" Type="Int32" />
+    <Property Name="endDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="consumptions" Relationship="DB_CrudLogInModel.FK__consumpti__treat__719CDDE7" FromRole="treatment" ToRole="consumption" />
+    <NavigationProperty Name="patient" Relationship="DB_CrudLogInModel.FK__treatment__patie__6BE40491" FromRole="treatment" ToRole="patient" />
+    <NavigationProperty Name="specialist" Relationship="DB_CrudLogInModel.FK__treatment__speci__6CD828CA" FromRole="treatment" ToRole="specialist" />
+    <NavigationProperty Name="user" Relationship="DB_CrudLogInModel.FK__treatment__admin__6DCC4D03" FromRole="treatment" ToRole="user" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="birthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="createdAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="updatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="roleId" Type="Int32" />
+    <NavigationProperty Name="role" Relationship="DB_CrudLogInModel.FK__user__roleId__607251E5" FromRole="user" ToRole="role" />
+    <NavigationProperty Name="treatments" Relationship="DB_CrudLogInModel.FK__treatment__admin__6DCC4D03" FromRole="user" ToRole="treatment" />
+  </EntityType>
+  <Association Name="FK__consumpti__produ__70A8B9AE">
+    <End Type="DB_CrudLogInModel.product" Role="product" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.consumption" Role="consumption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="consumption">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__consumpti__treat__719CDDE7">
+    <End Type="DB_CrudLogInModel.treatment" Role="treatment" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.consumption" Role="consumption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="treatment">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="consumption">
+        <PropertyRef Name="treatment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__patie__6BE40491">
+    <End Type="DB_CrudLogInModel.patient" Role="patient" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.treatment" Role="treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="patient">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="patientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__user__roleId__607251E5">
+    <End Type="DB_CrudLogInModel.role" Role="role" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.user" Role="user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="role">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__specialis__speci__65370702">
+    <End Type="DB_CrudLogInModel.speciality" Role="speciality" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.specialist" Role="specialist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="speciality">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="specialist">
+        <PropertyRef Name="specialityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__speci__6CD828CA">
+    <End Type="DB_CrudLogInModel.specialist" Role="specialist" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.treatment" Role="treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="specialist">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="specialistId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__treatment__admin__6DCC4D03">
+    <End Type="DB_CrudLogInModel.user" Role="user" Multiplicity="0..1" />
+    <End Type="DB_CrudLogInModel.treatment" Role="treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="treatment">
+        <PropertyRef Name="adminId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

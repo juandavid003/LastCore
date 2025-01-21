@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_CrudLogInModelStoreContainer" CdmEntityContainer="DB_CrudLogInEntities">
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.usuario">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CompleteName" ColumnName="CompleteName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tareas">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.tarea">
+        <MappingFragment StoreEntitySet="tarea">
+          <ScalarProperty Name="project" ColumnName="project" />
+          <ScalarProperty Name="employee" ColumnName="employee" />
+          <ScalarProperty Name="estimated_time" ColumnName="estimated_time" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="taskname" ColumnName="taskname" />
+          <ScalarProperty Name="task_id" ColumnName="task_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="especialities">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.especiality">
+        <MappingFragment StoreEntitySet="especiality">
+          <ScalarProperty Name="procedures" ColumnName="procedures" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="budget" ColumnName="budget" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="patients">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.patient">
+        <MappingFragment StoreEntitySet="patient">
+          <ScalarProperty Name="medicalHistory" ColumnName="medicalHistory" />
+          <ScalarProperty Name="CI" ColumnName="CI" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roles">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.role">
+        <MappingFragment StoreEntitySet="roles">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="specialists">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.specialist">
+        <MappingFragment StoreEntitySet="specialist">
+          <ScalarProperty Name="efficiency" ColumnName="efficiency" />
+          <ScalarProperty Name="especialityId" ColumnName="especialityId" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="createdAt" ColumnName="createdAt" />
+          <ScalarProperty Name="updatedAt" ColumnName="updatedAt" />
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consumptions">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.consumption">
+        <MappingFragment StoreEntitySet="consumption">
+          <ScalarProperty Name="treatment_id" ColumnName="treatment_id" />
+          <ScalarProperty Name="usedQuantity" ColumnName="usedQuantity" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="usedDate" ColumnName="usedDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="availableQuantity" ColumnName="availableQuantity" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="provider" ColumnName="provider" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="treatments">
+      <EntityTypeMapping TypeName="DB_CrudLogInModel.treatment">
+        <MappingFragment StoreEntitySet="treatment">
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="adminId" ColumnName="adminId" />
+          <ScalarProperty Name="specialistId" ColumnName="specialistId" />
+          <ScalarProperty Name="patientId" ColumnName="patientId" />
+          <ScalarProperty Name="standardConsumption" ColumnName="standardConsumption" />
+          <ScalarProperty Name="standardCost" ColumnName="standardCost" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
